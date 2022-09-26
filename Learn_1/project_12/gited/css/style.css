@@ -1,0 +1,162 @@
+html,
+body {  
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: darkgrey;
+}
+
+html {
+    box-sizing: border-box;
+
+}
+
+* {
+    box-sizing: inherit;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.wraper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+
+}
+.content {
+    flex: 1 0 auto;
+    background-image: url(../images/bc.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+.content.content-mp,
+.content.content-pl {
+    background-image: none;
+}
+.header {
+    background-color: #976999;
+    height: 100px;
+    color: #fff;
+    padding-top: 10px;
+
+}
+.container {
+    max-width: 1620px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+.header__inner {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header__inner img {
+    height: 75px;
+    border: 1 solid #fff;
+}
+
+.name {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 60px;
+
+}
+.menu__btn{
+    display: none;
+}
+ul,
+li {
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+}
+li {
+    padding: 0 10px;
+}
+
+li a {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.active {
+    font-weight: 700;
+}
+
+.misto__img {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.misto__img img {
+
+    height: 300px;
+    height: 300px;
+}
+.people__img img {
+
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #000;
+}
+
+
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-style: 35px;
+    font-weight: 400;
+}
+
+article {
+
+    background-color:darkgray;   
+    margin-bottom: 10px;
+    padding: 30px 15px;
+}
+
+p {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #000;
+    text-align: justify;
+}
+
+
+.footer {
+    display: flex;
+    color: #fff;
+    flex: 0 0 auto;
+    background-color: #976999;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+
+.footer span {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer span a {
+    font-weight: 700;
+}

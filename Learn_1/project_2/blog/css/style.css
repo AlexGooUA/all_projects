@@ -1,0 +1,19 @@
+body{
+    background-color: #777777;
+    text-align: center;
+    
+}
+h1{
+    font-size: 35px;
+    color: blue;
+    
+}
+ul{
+    background-color: #fff;
+
+}
+article{
+    max-width: 900px;
+    font-size: 18;
+    margin: 0 auto 0 auto;
+}

@@ -1,0 +1,33 @@
+html, body
+{
+    height: 100%;
+}
+.wraper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+
+}
+.content {
+
+    flex:  1 0 auto;
+}
+
+
+.header {
+    background-color: #974631;
+    height: 200px;
+    
+}
+.base {
+    background-color: #97479731;
+    height: 200px;
+    
+}
+
+.footer {
+    flex: 0 0 auto;
+    background-color: #978;
+    height: 200px;
+
+}

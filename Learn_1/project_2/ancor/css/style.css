@@ -1,0 +1,19 @@
+body{
+    background-color: #ff888f;
+    text-align: center;
+    font-size: 36px;
+    margin-top: 100px;
+}
+a{
+    text-decoration: none;
+    display: block;
+}
+a:link{
+    color: aliceblue;
+}
+a:visited{
+    color: black;
+}
+a:active{
+    color: aqua;
+}

@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap');
+
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    background-color: #232323;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+div {
+    height: 200px;
+    margin: 40px 0 0 0;
+    border-radius: 20px;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+h1 {
+    font-family: 'Londrina Shadow', cursive;
+    text-align: center;
+    font-size: 75px;
+    margin: 60px 0 0 0;
+    color: #aaa;
+}
+
+h2 {
+    font-family: 'Londrina Shadow', cursive;
+    text-align: center;
+    margin: 0 0 30px 0;
+    color: lightslategrey;
+
+}
+
+p {
+    padding: 10px;
+    line-height: 20px;
+    text-align: justify;
+    font-size: 20px;
+    color: rgb(251, 251, 251);
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    height: 30px;
+    transition: height 1s;
+    -webkit-transition: height 1s;
+    -moz-transition: height 1s;
+    background: linear-gradient(bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4));
+    background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4));
+    background: -moz-linear-gradient(bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4));
+}
+
+span {
+    color: rgb(253, 126, 126);
+}
+
+small {
+    opacity: 0;
+}
+
+.show-description p{
+    height: 150px;
+}
+
+
+.show-description small{
+    opacity: 1;
+}
+.first {
+    background-image: url(../images/bc-1.png);
+}
+
+.second {
+    background-image: url(../images/bc-2.png);
+}
+
+.desert {
+    background-image: url(../images/bc-3.png);
+}
+
+.price {
+    float: right;
+}
+

@@ -1,0 +1,103 @@
+* {
+    box-sizing: inherit;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: rgb(80, 114, 66);
+    font-size: 16px;
+    color: white;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    z-index: 20;
+}
+
+.content {
+    max-width: 600px;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+.content_2d {}
+
+.content-bloc {
+    margin-bottom: 50px;
+
+}
+
+.content_2d .content-bloc div {
+    transition: all 2s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    width: 200px;
+    height: 200px;
+
+
+}
+
+.content_translate {
+    background-color: rgb(104, 77, 4);
+
+}
+
+.content_translate:hover {
+    z-index: 30;
+    transform: translate(50px, 100px)
+}
+
+.content_scale {
+    background-color: rgb(179, 131, 0);
+    transform: scale(1, 1);
+    transition: all 1s ease;
+}
+
+.content_scale:hover {
+    transform: scale(-1, -1)
+}
+
+.content_rotate {
+    background-color: rgb(179, 131, 0);
+    transform: rotate(0deg);
+    /* transition: all 10s ease; */
+}
+
+.content_rotate:hover {
+    transform: rotate(111deg)
+}
+
+.content_skew {
+    background-color: rgb(179, 131, 0);
+    transform: skew(0deg, 0deg);
+    /* transition: all 10s ease; */
+}
+
+.content_skew:hover {
+    transform: skew(10deg, 10deg)
+}
+
+.content_matrix {
+    background-color: rgb(179, 131, 0);
+    transform: matrix(1, -0.3, 0, 1, 0, 0);
+    /* transition: all 10s ease; */
+}
+
+.content_matrix:hover {
+    transform: matrix(1.2, 0.3, 0.3, 0.5, -30, 100);
+}
+
+.content_transform-origin {
+    background-color: rgb(179, 131, 0);
+    transform-origin: 0px 0px;
+    transform: rotate(0deg);
+    /* transition: all 10s ease; */
+}
+
+.content_transform-origin:hover {
+    transform: rotate(30deg);
+
+}

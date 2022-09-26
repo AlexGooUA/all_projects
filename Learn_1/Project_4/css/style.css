@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+nav {
+    margin-bottom: 30px;
+}
+
+ul {
+    margin: 0;
+    padding-left: 0;
+}
+li{
+    display: inline-block;
+    margin: 0 15px;
+}
+a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #808080;
+}
+
+header img {
+    width: 200px;
+    border: 1px solid #000;
+    border-radius: 100px;
+    margin-bottom: 33px;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 32px;
+    font-weight: 900;
+    font-size: 36px;
+    color: #000;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 24px;
+    color: #808080;
+    letter-spacing: 18px;
+    margin-bottom: 28px;
+}
+
+div {
+    margin-top: 15px;
+    border-radius: 0%;
+}
+
+input {
+    padding: 11px 17px;
+}
+
+textarea {
+    padding: 11px 17px;
+    height: 138px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+button {
+    border-radius: 11px;
+    background-color: rgb(58, 65, 65);
+    width: 165px;
+    height: 57px;
+    border: none;
+    margin-bottom: 33px;
+    font-size: 17px;
+    color: #a9a9a9;
+    text-transform: uppercase;
+}
+.columns{
+    background-color: #000;
+    border-bottom: 1px solid #808080;
+    padding-top: 30px;
+}
+.columns__inner{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.columns__first h3{
+color: #808080;
+font-size: 15px;
+}
+.columns__first p{
+    text-transform: none;
+    font-size: 14px;
+    color: #808080;
+    text-align: justify;
+}
+.columns__first{
+    max-width: 600px;
+}
+
+.columns__second{
+    text-transform: none;
+    max-width: 600px;
+    text-align: justify;
+}
+
+.header {
+    margin-top: 26px;
+
+}
+
+.content {
+    padding-top: 40px;
+    background-color: #000;
+}
+
+.forms {
+    width: 400px;
+    border: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    background-color: #d0d1d1;
+}
+
+.footer {
+    color: #808080;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 33px 0;
+}
+
+::placeholder {
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+}
+
+/* header {
+    height: 50px;
+    background-color: #464;
+}
+
+section {
+    height: 200px;
+    background-color: #697;
+}
+
+footer {
+    height: 50px;
+    background-color: #976;
+} */

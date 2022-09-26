@@ -1,0 +1,93 @@
+body {
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+div {
+
+
+    width: 400px;
+    height: 400px;
+    background-color: black;
+    padding: 20px;
+    position: relative;
+    color: aliceblue;
+}
+
+.box {
+    z-index: 1;
+}
+
+.inner {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(0, 255, 30);
+    z-index: -1;
+    top: 40px;
+    left: 40px;
+    z-index: 20;
+}
+
+.inner2 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(13, 0, 255);
+    z-index: -1;
+    top: 40px;
+    right: 40px;
+}
+
+.inner3 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(0, 255, 60);
+    z-index: -1;
+    bottom: 40px;
+    right: 40px;
+
+}
+
+.inner4 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(255, 0, 0);
+    z-index: -1;
+    bottom: 40px;
+    left: 40px;
+}
+.inner5 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(15, 67, 67);
+    z-index: -1;
+    top: 70px;
+    left: 70px;
+    z-index: 10;
+}
+.inner6 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: aqua;
+    z-index: -1;
+    top: 40px;
+    left: 120px;
+}
+.inner7 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: aqua;
+    z-index: -1;
+    top: 120px;
+    left: 120px;
+}
+

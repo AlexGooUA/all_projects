@@ -1,0 +1,105 @@
+/* line 3, ../project_9/scss/style.scss */
+html {
+  box-sizing: border-box;
+}
+
+/* line 6, ../project_9/scss/style.scss */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/* line 12, ../project_9/scss/style.scss */
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #546e7a;
+}
+
+/* line 19, ../project_9/scss/style.scss */
+.container {
+  max-width: 1230px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* line 24, ../project_9/scss/style.scss */
+.search {
+  background-image: url(../img/bc.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 533px;
+}
+
+/* line 30, ../project_9/scss/style.scss */
+.search__inner {
+  padding: 155px 0 100px;
+  color: #000;
+  text-align: center;
+}
+
+/* line 34, ../project_9/scss/style.scss */
+.search__inner-title {
+  margin-bottom: 48px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 72px;
+}
+
+/* line 40, ../project_9/scss/style.scss */
+.search__inner-text {
+  margin-bottom: 50px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+/* line 46, ../project_9/scss/style.scss */
+.search__inner-form {
+  align-items: center;
+  max-width: 670px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* line 51, ../project_9/scss/style.scss */
+.search__inner-form input {
+  display: block;
+  width: 100%;
+  box-shadow: 0px 1px 10px 0px rgba(124, 178, 65, 0.75);
+  border-radius: 4px;
+  height: 56px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  font-weight: 500;
+  padding-left: 25px;
+  padding-right: 60px;
+}
+
+/* line 63, ../project_9/scss/style.scss */
+.search__inner-form input::placeholder {
+  color: #90a4ae;
+  font-weight: 500;
+}
+
+/* line 68, ../project_9/scss/style.scss */
+.search__inner-form button {
+  position: absolute;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  top: 10px;
+  right: 16px;
+}
+
+/* line 75, ../project_9/scss/style.scss */
+.search__inner-form button .search__inner_img {
+  height: 35px;
+}
+
+/*# sourceMappingURL=style.css.map */

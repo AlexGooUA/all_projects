@@ -1,0 +1,308 @@
+@import url(https://fonts.googleapis.com/css?family=Chivo:300,300italic,regular,italic,700,700italic,900,900italic);
+
+html,
+body {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    // font-family: 'Chivo', sans-serif;
+}
+
+.box {
+    height: 900px;
+    max-width: 1440px;
+    margin: 0 auto;
+    background: #121725;
+    font-family: 'Chivo', sans-serif;
+    font-weight: 400;
+    padding: 130px 0;
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.main {
+    height: 640px;
+    background-image: url(../images/desktop/image-host.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    position: relative;
+
+    &__logo {
+        width: 135px;
+        height: 56px;
+        position: absolute;
+        top: 0;
+        // left: 165px;
+        transform: translateY(-50%);
+
+    }
+
+    &__content {
+        position: absolute;
+        background: #121725;
+        width: 723px;
+        height: 509px;
+        bottom: 0;
+        padding-top: 88px;
+        padding-right: 58px;
+    }
+
+    &__title {
+        font-weight: 300;
+        font-size: 52px;
+        line-height: 62px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-bottom: 24px;
+
+        span {
+            color: #54E6AF;
+        }
+    }
+
+    &__text {
+        max-width: 445px;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 28px;
+        color: #C2CBE5;
+        margin-bottom: 40px;
+    }
+
+    &__form {
+        width: 427px;
+        position: relative;
+        margin-bottom: 64px;
+
+        input {
+            font-family: 'Chivo', sans-serif;
+            font-size: 14px;
+            line-height: 28px;
+            border: none;
+            outline: none;
+            font-weight: 700;
+        }
+
+        input[type=email] {
+            background: #2C344B;
+            border-radius: 28px;
+            width: 100%;
+            height: 56px;
+            padding: 14px 0 14px 32px;
+            color: #FFFFFF;
+
+            ::placeholder {
+                color: rgba(255, 255, 255, .5);
+            }
+        }
+
+        input[type=submit] {
+            width: 162px;
+            height: 46px;
+            background: #54E6AF;
+            box-shadow: 0px 2px 4px rgba(84, 230, 175, 0.14);
+            border-radius: 28px;
+            position: absolute;
+            top: 5px;
+            right: 5px;
+            transition: all 0.7s;
+        }
+
+
+
+    }
+
+    &__form input[type=submit]:hover {
+        background: #B3FFE2;
+    }
+
+    &__inner-img {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 548px;
+        opacity: 0.6;
+    }
+
+
+    &__dots {
+        background-image: url(../images/desktop/bg-pattern-dots.svg);
+        width: 232px;
+        height: 104px;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        transform: translateY(50%);
+    }
+}
+
+
+@media(max-width:800px) {
+    .box {
+        max-width: 768px;
+        height: 1024px;
+        padding: 50px 0;
+        background-image: url(../images/tablet/image-host.jpg);
+        background-repeat: no-repeat;
+        background-position: top right;
+    }
+
+    .container {
+        max-width: 690px;
+    }
+
+    .main {
+        background-image: none;
+
+        &__logo {
+
+            transform: translateY(0);
+
+        }
+
+        &__content {
+
+            width: 635px;
+            padding-top: 93px;
+            padding-right: 0;
+            bottom: -78px;
+
+        }
+
+        &__title {
+            font-size: 48px;
+            line-height: 56px;
+            margin-bottom: 31px;
+        }
+
+        &__inner-img {
+            max-width: 536px;
+        }
+
+        &__dots {
+
+            bottom: -330px;
+            left: 30px;
+            transform: translateY(0);
+        }
+    }
+}
+
+@media(max-width:400px) {
+    .box {
+        max-width: 375px;
+        height: 667px;
+        padding: 0px 0;
+        background-image: url(../images/mobile/image-host.jpg );
+        background-size: cover;
+
+    }
+
+    .container {
+        max-width: 327px;
+        margin: 0;
+    }
+
+    .main {
+        background-image: none;
+        width: 375px;
+        height: 667px;
+        background: rgba(18, 23, 37, 0.904);        
+        text-align: center;
+
+        &__logo {
+            width: 135px;
+            height: 56px;
+            top: 62px;
+            left: 120px;
+        }
+
+        &__content {
+            position: relative;
+            background: none;
+            width: 327px;
+            height: 398px;
+            left: 24px;
+            top: 175px;
+            padding: 0;
+        }
+
+        &__title {
+            font-size: 26px;
+            line-height: 38px;
+            margin-bottom: 16px;
+        }
+
+        &__text {
+            max-width: 100%;
+            font-size: 15px;
+            line-height: 25px;
+            margin-bottom: 98px;
+        }
+
+        &__form {
+            width: 326px;
+            margin-bottom: 64px;
+
+
+
+            input[type=email] {
+                height: 46px;
+                padding: 9px 0 9px 32px;
+                margin-bottom: 16px;
+            }
+
+            input[type=submit] {
+                width: 100%;
+                height: 46px;
+                position: static;
+                // top: 0px;
+                // right: 0px;
+            }
+
+        }
+
+        &__inner-img {
+            width: 100%;
+            height: 17px;
+            position: absolute;
+            bottom: 156px;
+
+        }
+
+        &__dots {
+            display: none;
+        }
+
+        &__inner-img img:nth-child(1) {
+            width: 56px;
+            height: 17px;
+        }
+
+        &__inner-img img:nth-child(2) {
+            width: 45px;
+            height: 17px;
+        }
+
+        &__inner-img img:nth-child(3) {
+            width: 73px;
+            height: 11px;
+        }
+
+        &__inner-img img:nth-child(4) {
+            width: 77px;
+            height: 15px;
+        }
+    }
+
+}

@@ -1,0 +1,45 @@
+* {
+    box-sizing: inherit;
+}
+
+.wrapper {
+    box-sizing: border-box;
+    background-color: rgb(80, 114, 66);
+    font-size: 16px;
+    color: white;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+
+.content 
+{
+    max-width: 600px;
+    padding: 30px;
+    margin: 0 auto;
+
+    &_2d {
+        &bloc {
+            div {
+                transition: all 3s ease;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-transform: uppercase;
+                width: 200px;
+                height: 200px;
+            }
+
+            margin-bottom: 50px;
+
+            h2 {}
+
+            &_translate {background-color: rgb(104, 77, 4);}
+        }
+    }
+
+
+}

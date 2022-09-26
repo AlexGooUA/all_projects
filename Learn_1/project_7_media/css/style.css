@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    font-size: 16px;
+    color: #1b1818;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1220px;
+    padding: 0 10px;
+    margin: 0 auto;
+
+}
+
+.rent {
+    padding: 100px 0;
+}
+
+.rent__inner {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.rent__item {
+    border: 1px solid #332208;
+    width: 250px;
+    min-height: 350px;
+    padding: 0 35px 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+
+}
+
+.rent__item-num {
+    font-size: 96px;
+    line-height: 115px;
+    font-weight: 700;
+    opacity: 0.05;
+}
+
+.rent__item-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+
+}
+
+
+.app-btn {
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 25px;
+    color: #fefefe;
+    background-color: #c5ac2d;
+    border: 1px solid transparent;
+    transition: all .5s;
+}
+
+.app-btn:hover {
+    color: #c5ac2d;
+    background-color: #fefefe;
+    border: 1px solid #c5ac2d;
+}
+
+.items {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.item {
+    border: 1px solid #1b1818;
+    height: 200px;
+    width: 200px;
+    padding: 26px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    cursor: pointer;
+    transition: all .5s;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.item:hover {
+    transform: scale(1.25);
+
+}
+
+.item img {
+    height: 30px;
+}
+
+
+@media(max-width: 1250px) {
+    .rent__inner {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .rent__item {
+        margin-bottom: 20px;
+    }
+
+}
+
+@media(max-width: 650px) {
+    .items {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .item {
+        margin-bottom: 30px;
+    }
+
+    .rent__item {
+        width: 100%;
+        min-height: 250px;
+    }
+}
+
+@media(max-width: 450px) {
+    .item{
+        width: 100%;
+    }
+    .rent__item{
+        margin: 30px  0;
+    }
+}

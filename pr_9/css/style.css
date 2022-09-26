@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@500;700;900&display=swap");
+html,
+body {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.box {
+  max-width: 1440px;
+  background: #fff;
+  font-weight: 400;
+  margin: 0 auto;
+  font-family: "Barlow";
+  font-size: 16px;
+  line-height: 26px;
+  color: #7B8BAD;
+  font-weight: 500;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1110px;
+}
+
+.header {
+  margin-top: 55px;
+}
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__btn {
+  color: #162542;
+  font-weight: 700;
+}
+
+.header__btn:hover {
+  background-color: #162542;
+  color: #fff;
+}
+
+.btn {
+  display: flex;
+  width: 175px;
+  height: 58px;
+  border-radius: 8px;
+  background: #E8EFF2;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.top {
+  background-image: url(../images/shared/pattern-square.svg);
+  background-position: top 0 right -130px;
+  background-repeat: no-repeat;
+}
+
+.top__inner {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 83px;
+  align-items: center;
+}
+.top__inner__info {
+  width: 445px;
+  height: 312px;
+}
+.top__inner__info-title {
+  font-weight: 900;
+  font-size: 56px;
+  line-height: 56px;
+  color: #162542;
+  margin-bottom: 24px;
+  text-transform: uppercase;
+}
+.top__inner__info-text {
+  margin-bottom: 40px;
+}
+.top__inner__info-button {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+.top__inner__info-button1 {
+  background: #F16718;
+  color: #fff;
+}
+.top__inner__info-button2 {
+  text-transform: uppercase;
+  color: #7B8BAD;
+}
+.top__inner__img {
+  width: 540px;
+  height: 480px;
+  border-radius: 20px;
+}
+
+.top__inner__info-button1:hover {
+  background-color: #FF9B62;
+}
+
+.mid {
+  margin-top: 30px;
+  background-image: url(../images/shared/pattern-square.svg);
+  background-position: bottom 0 left -130px;
+  background-repeat: no-repeat;
+}
+.mid__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mid__inner__img1 {
+  border-radius: 20px;
+  width: 255px;
+  height: 480px;
+  background-image: url(../images/desktop/image-phone-and-keyboard.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.mid__inner__img1-or {
+  width: 255px;
+  height: 480px;
+  background-color: #F16718;
+  opacity: 0.8;
+  border-radius: 20px;
+}
+.mid__inner__img2 img {
+  width: 445px;
+  height: 480px;
+  border-radius: 20px;
+}
+.mid__inner__info {
+  width: 255px;
+  height: 265px;
+}
+.mid__inner__info-title {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #162542;
+  margin-bottom: 27px;
+}
+
+.bottom {
+  margin-top: 168px;
+}
+.bottom__inner {
+  display: flex;
+  justify-content: space-between;
+}
+.bottom__inner__card {
+  width: 255px;
+  height: 323px;
+}
+.bottom__inner__card-logo {
+  width: 65px;
+  height: 65px;
+  background-color: #F16718;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  margin-bottom: 48px;
+}
+.bottom__inner__card-title {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 28px;
+  color: #162542;
+  margin-bottom: 23px;
+}
+
+.footer {
+  margin-top: 128px;
+  text-align: center;
+  margin-bottom: 39px;
+}
+.footer__text {
+  font-weight: 700;
+}
+.footer__text span {
+  font-weight: 500;
+}/*# sourceMappingURL=style.css.map */
